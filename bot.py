@@ -7,7 +7,7 @@ from google.genai import types
 
 # 1. ТЕЛЕГРАМ ТОКЕН ЖӘНЕ GEMINI API КІЛТІН ЕНГІЗІҢІЗ
 TELEGRAM_TOKEN = "8955051645:AAEDQwBDfTM4IyNM2omXTAF-y4stRtFh7y0"
-GEMINI_API_KEY = "AQ.Ab8RN6Lg2A1306MEp-BAJd-1O79IVvqifJiYdz-TUOWMb9jMAQ"
+GEMINI_API_KEY = "AQ.Ab8RN6Lex1zz0k-CmIpULGx3bWY-IW7nOG6QXEJL0M_0x3J_Iw"
 
 # Gemini Клиентін баптау
 client = genai.Client(api_key=GEMINI_API_KEY)
