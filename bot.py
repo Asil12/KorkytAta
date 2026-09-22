@@ -15,7 +15,7 @@ logging.basicConfig(
 )
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8955051645:AAEDQwBDfTM4IyNM2omXTAF-y4stRtFh7y0")
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AQ.Ab8RN6Lex1zz0k-CmIpULGx3bWY-IW7nOG6QXEJL0M_0x3J_Iw")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AQ.Ab8RN6JuVHUSCA1O4kHnaUF6nmwTmjXpXt9mdPgD8b27leWenw")
 
 # Gemini API баптау (AQ... кілтімен де жұмыс істейді)
 genai.configure(api_key=GEMINI_API_KEY)
